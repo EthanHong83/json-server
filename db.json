@@ -1,0 +1,310 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "name": "판교 오피스빌딩 신축공사",
+      "location": "경기도 성남시 분당구 판교로227번길 23",
+      "startDate": "2020-04-06",
+      "endDate": "2022-07-07",
+      "owner": "삼성중공업",
+      "architect": "삼일건축사사무소",
+      "description": "삼성중공업 R&D 센터 건물이며, 철근콘크리트구조 입니다."
+    },
+    {
+      "id": 1,
+      "name": "판교 실리콘파크 신사옥",
+      "location": "경기도 성남시 분당구 판교로255번길 35",
+      "startDate": "2011-03-06",
+      "endDate": "2013-03-07",
+      "owner": "탑 엔지니어링, 아미노로직스",
+      "architect": "삼일건축사사무소",
+      "description": "공사규모는 15,449.23㎡ 이고 지하3층-지상10층 입니다. 철골,철근콘크리트구조 입니다."
+    },
+    {
+      "name": "상도동 어린이집 신축공사",
+      "location": "서울시 동작구 상도동",
+      "startDate": "2020-10-04",
+      "endDate": "2020-12-02",
+      "owner": "탑 엔지니어링, 아미노로직스",
+      "architect": "삼일건축사사무소",
+      "description": "공사규모는 15,449.23㎡ 이고 지하3층-지상10층 입니다. 철골,철근콘크리트구조 입니다.",
+      "id": 2
+    },
+    {
+      "name": "연꽃 어린이집 신축공사",
+      "startDate": "2020-12-10",
+      "endDate": "2020-12-30",
+      "id": 3
+    }
+  ],
+  "workers": [
+    {
+      "id": 0,
+      "projectId": 0,
+      "name": "이병헌",
+      "phone": "010-2223-2223",
+      "jobType": "목공",
+      "workType": "목창호",
+      "hireDate": "2020-09-30",
+      "address": "경기도 성남시 중원구 성남동 1",
+      "residentNumber": "761232-2312343",
+      "alienNumber": "",
+      "visaCode": "",
+      "nationalityCode": "",
+      "wageForm": "일급",
+      "englishName": "",
+      "mainBank": "국민은행",
+      "bankAccountHolder": "이병헌",
+      "bankAccountNumber": "002-0000-000200",
+      "unitCost": 150000,
+      "contractFilePath": "",
+      "isAlien": "false",
+      "isInsuranceActive": "true",
+      "corporateNumber": "111-11-00002",
+      "corporateName": "가나인력사무소",
+      "corporatePhone": "031-221-2222"
+    },
+    {
+      "id": 1,
+      "projectId": 0,
+      "name": "무리뉴",
+      "phone": "010-2223-2224",
+      "jobType": "목공",
+      "workType": "목창호",
+      "hireDate": "2020-09-31",
+      "address": "경기도 성남시 중원구 성남동 4",
+      "residentNumber": "761232-2312344",
+      "alienNumber": "7801015555570",
+      "visaCode": "A1",
+      "nationalityCode": "100",
+      "wageForm": "일급",
+      "englishName": "Mourinho",
+      "mainBank": "국민은행",
+      "bankAccountHolder": "무리뉴",
+      "bankAccountNumber": "002-0000-000201",
+      "unitCost": 150000,
+      "contractFilePath": "",
+      "isAlien": "true",
+      "corporateNumber": "111-11-00002",
+      "corporateName": "가나인력사무소",
+      "corporatePhone": "031-221-2222"
+    },
+    {
+      "projectId": 0,
+      "name": "호이비에르",
+      "phone": "010-2223-2225",
+      "jobType": "목공",
+      "workType": "목창호",
+      "hireDate": "2020-09-27",
+      "address": "경기도 성남시 중원구 성남동 20",
+      "residentNumber": "761232-2312345",
+      "alienNumber": "7801015555571",
+      "visaCode": "A1",
+      "nationalityCode": "100",
+      "wageForm": "일급",
+      "englishName": "Mourinho",
+      "mainBank": "국민은행",
+      "bankAccountHolder": "호이비에르",
+      "bankAccountNumber": "002-0000-000202",
+      "unitCost": 150000,
+      "contractFilePath": "",
+      "isAlien": "true",
+      "corporateNumber": "111-11-00002",
+      "corporateName": "가나인력사무소",
+      "corporatePhone": "031-221-2222",
+      "id": 2
+    }
+  ],
+  "equipments": [
+    {
+      "id": 0,
+      "projectId": 0,
+      "name": "카고크레인",
+      "workType": "토공사",
+      "driverPhone": "010-2121-1212",
+      "equipmentType": "25t",
+      "hireDate": "2020-08-30",
+      "plateNumber": "경기1234",
+      "driverName": "김광현",
+      "fuelType": "경유",
+      "mainBank": "국민은행",
+      "bankAccountHolder": "김광현",
+      "bankAccountNumber": "002-0000-000205",
+      "unitCost": 800000,
+      "contractFilePath": "",
+      "ownerName": "송진우",
+      "corporateNumber": "111-11-00001",
+      "corporateName": "가나중기",
+      "corporatePhone": "031-221-2221"
+    },
+    {
+      "id": 1,
+      "projectId": 0,
+      "name": "지게차",
+      "workType": "토공사",
+      "driverPhone": "010-2121-3434",
+      "equipmentType": "",
+      "hireDate": "2020-08-25",
+      "plateNumber": "경기1235",
+      "driverName": "박경완",
+      "fuelType": "경유",
+      "mainBank": "국민은행",
+      "bankAccountHolder": "이승엽",
+      "bankAccountNumber": "002-0000-000206",
+      "unitCost": 600000,
+      "contractFilePath": "",
+      "ownerName": "양준혁",
+      "corporateNumber": "111-11-00002",
+      "corporateName": "성남지게차",
+      "corporatePhone": "031-221-2224"
+    }
+  ],
+  "materials": [
+    {
+      "id": 0,
+      "projectId": 0,
+      "name": "단열샷시",
+      "workType": "창호",
+      "standard": "1.5M * 3M",
+      "unit": "EA",
+      "quantity": 100,
+      "registrationDate": "2020-08-25"
+    },
+    {
+      "id": 1,
+      "projectId": 0,
+      "name": "방음샷시",
+      "workType": "창호",
+      "standard": "1.5M * 3M",
+      "unit": "EA",
+      "quantity": 120,
+      "registrationDate": "2020-08-25"
+    }
+  ],
+  "workerRecords": [
+    {
+      "id": 0,
+      "projectId": "0",
+      "jobType": "목공",
+      "workType": "목창호",
+      "unitCost": 150000,
+      "workingHours": 8,
+      "workingDate": "2020-10-01",
+      "workerId": 0
+    },
+    {
+      "id": 1,
+      "projectId": "0",
+      "jobType": "철근공",
+      "workType": "목창호",
+      "unitCost": 200000,
+      "workingHours": 8,
+      "workingDate": "2020-10-02",
+      "workerId": 1
+    },
+    {
+      "id": 2,
+      "projectId": "0",
+      "unitCost": 200000,
+      "workingHours": 8,
+      "workingDate": "2020-10-03",
+      "jobType": "비계공",
+      "workType": "목창호",
+      "workerId": 2
+    },
+    {
+      "id": 3,
+      "projectId": "0",
+      "unitCost": 150000,
+      "workingHours": 8,
+      "workingDate": "2020-12-16",
+      "jobType": "철판공",
+      "workType": "목창호",
+      "workerId": 2
+    }
+  ],
+  "equips": [
+    {
+      "id": 0,
+      "projectId": 0,
+      "name": "카고크레인",
+      "workType": "토공사",
+      "driverPhone": "010-2121-1212",
+      "equipmentType": "25t",
+      "hireDate": "2020-08-30",
+      "plateNumber": "경기1234",
+      "driverName": "김광현",
+      "fuelType": "경유",
+      "mainBank": "국민은행",
+      "bankAccountHolder": "김광현",
+      "bankAccountNumber": "002-0000-000205",
+      "unitCost": 800000,
+      "contractFilePath": "",
+      "ownerName": "송진우",
+      "corporateNumber": "111-11-00001",
+      "corporateName": "가나중기",
+      "corporatePhone": "031-221-2221"
+    },
+    {
+      "id": 1,
+      "projectId": 0,
+      "name": "지게차",
+      "workType": "토공사",
+      "driverPhone": "010-2121-3434",
+      "equipmentType": "",
+      "hireDate": "2020-08-25",
+      "plateNumber": "경기1235",
+      "driverName": "박경완",
+      "fuelType": "경유",
+      "mainBank": "국민은행",
+      "bankAccountHolder": "이승엽",
+      "bankAccountNumber": "002-0000-000206",
+      "unitCost": 600000,
+      "contractFilePath": "",
+      "ownerName": "양준혁",
+      "corporateNumber": "111-11-00002",
+      "corporateName": "성남지게차",
+      "corporatePhone": "031-221-2224"
+    }
+  ],
+  "equipmentRecords": [
+    {
+      "id": 0,
+      "workType": "토공사",
+      "workingDate": "2020-10-01",
+      "projectId": 0,
+      "workingHours": 8,
+      "unitCost": 500000,
+      "equipId": 0,
+      "equipmentId": 0
+    },
+    {
+      "id": 1,
+      "projectId": 0,
+      "unitCost": 700000,
+      "workingHours": 8,
+      "workingDate": "2020-10-02",
+      "workType": "토공사",
+      "equipmentId": 1,
+      "equipId": 1
+    }
+  ],
+  "materialRecords": [
+    {
+      "id": 0,
+      "workType": "창호",
+      "quantity": 10,
+      "unitCost": 100000,
+      "recordedDate": "2020-10-01",
+      "materialId": 0
+    },
+    {
+      "id": 1,
+      "workType": "창호",
+      "quantity": 10,
+      "unitCost": 100000,
+      "recordedDate": "2020-10-02",
+      "materialId": 1
+    }
+  ]
+}
